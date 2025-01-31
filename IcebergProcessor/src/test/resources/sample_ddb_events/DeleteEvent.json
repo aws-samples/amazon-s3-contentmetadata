@@ -1,0 +1,41 @@
+{
+  "eventID": "63022c1585fd0be107b7cfd9e39391d7",
+  "eventName": "MODIFY",
+  "eventVersion": "1.1",
+  "eventSource": "aws:dynamodb",
+  "awsRegion": "us-east-1",
+  "dynamodb": {
+    "ApproximateCreationDateTime": 1731925977000,
+    "Keys": {
+      "s3key": {
+        "S": "czNjb250ZW50bWV0YWRhdGFleGFtcGxlc3RhY2staW5wdXRkNjBjZWY3YS00dnNrOTQ2ZXZ6aGEvd2FyZWhvdXNlL2RhdGEvMDAwMDAtMC05ZTc1MTZlOS03NWZkLTRlZTgtODliOS0wY2RhOGJiMzIwYWQtMDAwMDgucGFycXVldA==-0"
+      }
+    },
+    "NewImage": {
+      "bucket": {
+        "S": "s3contentmetadataexamplestack-inputd60cef7a-4vsk946evzha"
+      },
+      "s3key": {
+        "S": "czNjb250ZW50bWV0YWRhdGFleGFtcGxlc3RhY2staW5wdXRkNjBjZWY3YS00dnNrOTQ2ZXZ6aGEvd2FyZWhvdXNlL2RhdGEvMDAwMDAtMC05ZTc1MTZlOS03NWZkLTRlZTgtODliOS0wY2RhOGJiMzIwYWQtMDAwMDgucGFycXVldA==-0"
+      },
+      "deleted": {
+        "BOOL": true
+      },
+      "latest_event_time": {
+        "S": "2024-11-18T10:32:54+00:00"
+      },
+      "version_id": {
+        "NULL": true
+      },
+      "key": {
+        "S": "warehouse/data/00000-0-9e7516e9-75fd-4ee8-89b9-0cda8bb320ad-00008.parquet"
+      },
+      "sequencer": {
+        "S": "00673B17D652EE0D14"
+      }
+    },
+    "SequenceNumber": "27630900001741775691079632",
+    "SizeBytes": 592,
+    "StreamViewType": "NEW_IMAGE"
+  }
+}

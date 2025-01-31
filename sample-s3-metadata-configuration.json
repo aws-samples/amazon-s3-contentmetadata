@@ -1,0 +1,6 @@
+{
+  "S3TablesDestination": {
+    "TableBucketArn": "${TABLE_BUCKET_ARN}",
+    "TableName": "mdblogs3metadata"
+  }
+}

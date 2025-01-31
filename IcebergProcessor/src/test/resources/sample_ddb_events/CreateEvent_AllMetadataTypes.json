@@ -1,0 +1,44 @@
+{
+  "eventID": "cc92a2c2201d3b8f576460e272df8085",
+  "eventName": "MODIFY",
+  "eventVersion": "1.1",
+  "eventSource": "aws:dynamodb",
+  "awsRegion": "us-east-1",
+  "dynamodb": {
+    "ApproximateCreationDateTime": 1731675048000,
+    "Keys": {
+      "s3key": {
+        "S": "czNjb250ZW50bWV0YWRhdGFleGFtcGxlc3RhY2staW5wdXRkNjBjZWY3YS00dnNrOTQ2ZXZ6aGEvMjAyNDA3MjRfMTIzMTA3LmpwZw==-0"
+      }
+    },
+    "NewImage": {
+      "bucket": {
+        "S": "foo"
+      },
+      "metadata": {
+        "S": "{\"metadata\":{\"array\":{\"string\":[\"foo\",\"bar\",\"baz\"],\"integer\":[12,13,14],\"boolean\":[true,true,false]},\"scalar\":{\"string\":\"foobar\",\"integer\":12,\"boolean\":true}}}"
+      },
+      "s3key": {
+        "S": "czNjb250ZW50bWV0YWRhdGFleGFtcGxlc3RhY2staW5wdXRkNjBjZWY3YS00dnNrOTQ2ZXZ6aGEvMjAyNDA3MjRfMTIzMTA3LmpwZw==-0"
+      },
+      "etag": {
+        "S": "86cfe4562a912649058b0fb7824e1d11"
+      },
+      "latest_event_time": {
+        "S": "2024-11-15T12:50:40+00:00"
+      },
+      "version_id": {
+        "NULL": true
+      },
+      "key": {
+        "S": "20240724_123107.jpg"
+      },
+      "sequencer": {
+        "S": "00673743A054CE73CC"
+      }
+    },
+    "SequenceNumber": "14055600003598882686763475",
+    "SizeBytes": 3437,
+    "StreamViewType": "NEW_IMAGE"
+  }
+}

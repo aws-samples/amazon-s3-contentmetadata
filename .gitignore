@@ -1,0 +1,20 @@
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# Shading
+IcebergProcessor/dependency-reduced-pom.xml
+
+**/target/*
+
+.idea/
+**.iml
+**.venv
+**/.DS_Store
+
+**__pycache__

@@ -1,0 +1,35 @@
+[
+  {
+    "PropertyGroupId": "sdk",
+    "PropertyMap": {
+      "region": "us-east-1"
+    }
+  },{
+    "PropertyGroupId": "stream",
+    "PropertyMap": {
+      "arn": "arn:aws:dynamodb:us-east-1:<ACCT>>:table/S3ContentMetadataExampleStack-serialization5134BDB2-MECGTNTZH0FY/stream/2024-11-12T12:48:43.967"
+    }
+  },{
+    "PropertyGroupId": "catalog",
+    "PropertyMap": {
+      "name": "S3",
+      "database": "default",
+      "table": "s3_content_metadata",
+      "warehousePath": "arn:aws:s3tables:us-east-1:<ACCT>:bucket/contentmetadata",
+      "impl": "software.amazon.s3tables.iceberg.S3TablesCatalog",
+      "io_impl": "org.apache.iceberg.aws.s3.S3FileIO"
+    }
+  },{
+    "PropertyGroupId": "schema",
+    "PropertyMap": {
+      "include_raw_metadata": "false",
+      "custom_metadata_fields": "labels, image_width, image_height",
+      "field.labels.type": "ARRAY<STRING>",
+      "field.labels.jpath": "$.labels[*].Name",
+      "field.image_width.type": "INTEGER",
+      "field.image_width.jpath": "$.exif.ImageWidth",
+      "field.image_height.type": "INTEGER",
+      "field.image_height.jpath": "$.exif.ImageLength"
+    }
+  }
+]
