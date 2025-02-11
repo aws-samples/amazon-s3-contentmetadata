@@ -68,7 +68,7 @@ the table, replacing any existing record by primary key.
 ## Joining With S3 Metadata
 Assuming you've enabled S3 Metadata on the input bucket, we would expect to see two tables in our S3 Table Bucket.
 <table>
-<tr><th>S3 Metadata </th><th>Content Metadata</th></tr>
+<tr><th>Content/Custom Metadata</th><th>S3 Metadata</th></tr>
 <tr style="vertical-align: top"><td>
 
 | Column Name  | Data Type      |
